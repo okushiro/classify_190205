@@ -12,6 +12,7 @@
 		D42B2D512209BB6B002D3BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42B2D4F2209BB6B002D3BC4 /* Main.storyboard */; };
 		D42B2D532209BB6D002D3BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42B2D522209BB6D002D3BC4 /* Assets.xcassets */; };
 		D42B2D562209BB6D002D3BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42B2D542209BB6D002D3BC4 /* LaunchScreen.storyboard */; };
+		D42B2D602209C0E4002D3BC4 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D42B2D5F2209C0E3002D3BC4 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D42B2D522209BB6D002D3BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D42B2D552209BB6D002D3BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D42B2D572209BB6D002D3BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42B2D5F2209C0E3002D3BC4 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D42B2D4F2209BB6B002D3BC4 /* Main.storyboard */,
 				D42B2D522209BB6D002D3BC4 /* Assets.xcassets */,
 				D42B2D542209BB6D002D3BC4 /* LaunchScreen.storyboard */,
+				D42B2D5F2209C0E3002D3BC4 /* MobileNet.mlmodel */,
 				D42B2D572209BB6D002D3BC4 /* Info.plist */,
 			);
 			path = classify;
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42B2D602209C0E4002D3BC4 /* MobileNet.mlmodel in Sources */,
 				D42B2D4E2209BB6B002D3BC4 /* ViewController.swift in Sources */,
 				D42B2D4C2209BB6B002D3BC4 /* AppDelegate.swift in Sources */,
 			);
